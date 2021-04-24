@@ -1,0 +1,24 @@
+
+.root{
+    -fx-background-color: lightgrey;
+}
+.tree-view, .tree-cell {
+    -fx-text-fill: #400040 ;
+    -fx-background-color: lightgrey;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 5;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-font-style: oblique;
+	-fx-font-weight: bold;
+	-fx-font-size: 15;
+	-fx-text-alignment: center;
+}
+
+.tree-cell:focused,.tree-cell:sub-tree-item{
+	-fx-background-insets: 0, 1, 2;
+    -fx-background-color: grey  ;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+}

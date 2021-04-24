@@ -1,0 +1,45 @@
+.root{
+    -fx-background-color: lightgrey;
+}
+
+#bold-label{
+	-fx-font-style: italic;
+	-fx-font-weight: bold;
+	-fx-font-size: 20;
+	-fx-text-alignment: center;
+}
+
+.chart {
+    -fx-padding: 10px;
+}
+.chart-content {
+    -fx-padding: 30px;
+    
+}
+.chart-legend {
+   -fx-background-color:  transparent;
+   -fx-padding: 20px;
+}
+ 
+.chart-legend-item-symbol{
+   -fx-background-radius: 0;
+}
+ 
+.chart-legend-item{
+    -fx-text-fill: #191970;
+}
+
+.chart-plot-background {
+    -fx-background-color: white;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #000080;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #000080;
+}
+.chart-alternative-row-fill {
+    -fx-fill: white;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}

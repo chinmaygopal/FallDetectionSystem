@@ -1,0 +1,14 @@
+.root{
+	-fx-background-color: lightgrey;
+	
+	
+}
+.text-input {
+  -fx-background-insets: 0, 1;
+  -fx-background-radius: 3, 2;
+  -fx-control-inner-background: white;
+}
+
+.label{
+	  -fx-text-fill: black;
+}

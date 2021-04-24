@@ -1,0 +1,19 @@
+.root{
+    -fx-background-color: lightgrey;
+}
+.label{
+    -fx-text-fill: saddlebrown;
+    -fx-font-size: 20;
+}
+.button{
+    -fx-background-color: #AB4642;
+    -fx-text-fill: floralwhite ;
+    -fx-background-radius: 15;
+    -fx-font-size: 20;
+}
+.button-blue{
+    -fx-background-color: #7cafc2;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 15;
+    -fx-font-size: 20;
+}
